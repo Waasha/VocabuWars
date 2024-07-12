@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cs1ayiqyce8h0"
+
+[deps]
+
+files=["res://assets/vocabulary.hello.translation"]
+
+source_file="res://assets/vocabulary.csv"
+dest_files=["res://assets/vocabulary.hello.translation"]
+
+[params]
+
+compress=true
+delimiter=0
