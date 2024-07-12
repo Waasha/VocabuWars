@@ -19,3 +19,5 @@ func load_csv_file(file_path: String, target_dict: Dictionary = {}):
 	while not data_file.eof_reached():
 		target_dict[i] = data_file.get_csv_line()
 		i += 1
+
+#added comment to test git functionality
