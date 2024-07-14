@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="VocabuWars"
+run/main_scene="res://scenes/main_game.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 DataLoad="*res://singletons/data_load.gd"
+Signals="*res://singletons/signals.gd"
+
+[rendering]
+
+renderer/rendering_method="mobile"
